@@ -15,7 +15,7 @@ from project.blueprints.order import bp as order_bp
 from project.blueprints.user import bp as user_bp
 from project.blueprints.stock import bp as stock_bp
 
-
+#actual app
 def create_app():
     
     app = Flask(__name__)
